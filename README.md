@@ -1,75 +1,56 @@
-# equantum Project
+# equantum
 
-This is the equantum web application. Please update this README with project-specific instructions and documentation.
+This is the **equantum** ecommerce demo web application for Quantum Climb.
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/494139b1-7fd9-45f3-ad91-91decdac6544
+**Repository:** https://github.com/QuantumClimb/equantum
 
-## How can I edit this code?
+## Getting Started
 
-There are several ways of editing your application.
+To run this project locally, you will need Node.js and npm installed.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/494139b1-7fd9-45f3-ad91-91decdac6544) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository
+ git clone https://github.com/QuantumClimb/equantum.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+ cd equantum
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+ npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Step 4: Start the development server
+ npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at `http://localhost:5173` (or the port shown in your terminal).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Editing the Code
 
-**Use GitHub Codespaces**
+- Use your preferred IDE to edit files in the `src/` directory.
+- Commit and push changes to your fork or branch as needed.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Tech Stack
 
-## What technologies are used for this project?
+- **Vite** (build tool)
+- **TypeScript**
+- **React**
+- **shadcn-ui** (UI components)
+- **Tailwind CSS**
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+You can deploy this project to any static hosting provider (e.g., Vercel, Netlify) or your own infrastructure. For production, build the app with:
 
-## How can I deploy this project?
+```sh
+npm run build
+```
 
-Simply open [Lovable](https://lovable.dev/projects/494139b1-7fd9-45f3-ad91-91decdac6544) and click on Share -> Publish.
+The output will be in the `dist/` directory.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© Quantum Climb. All rights reserved.
