@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 33% 99%;
+    --foreground: 0 0% 26%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 26%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 26%;
+
+    --primary: 122 40% 70%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 174 41% 79%;
+    --secondary-foreground: 0 0% 26%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 122 40% 70%;
+    --accent-foreground: 0 0% 26%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 122 40% 70%;
+
+    --radius: 1rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-puremills-background text-puremills-text font-dmsans;
+  }
+
+  .glass {
+    @apply bg-white/40 backdrop-blur-md border border-white/20 rounded-2xl shadow-md;
+  }
+  
+  .glass-card {
+    @apply bg-white/60 backdrop-blur-sm border border-white/30 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-lg;
+  }
+
+  .section-padding {
+    @apply py-16 px-6 md:px-12 lg:px-24;
+  }
+
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+}
